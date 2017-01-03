@@ -1,0 +1,57 @@
+/* 
+    Created on : Oct 11, 2016, 12:34:54 PM
+    Author     : Raihan
+*/
+
+
+/*========= Golabal css ======*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-weight:  100;
+}
+h3{
+    font-weight:  300;
+}
+/*== End golbal css ==*/
+
+
+/*========== Login Page styling =====*/
+.login .alert_box{
+    max-width: 350px;
+    margin: 100px auto 30px;
+}
+.login .login_form{
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.login.forget .login_form{
+    margin: 100px auto 0;
+}
+.login .login_form h2,.login .login_form h3{
+    margin-top: 0;
+}
+.login .login_form .checkbox{
+    text-align: left;
+}
+.login .login_form .forget_pass{
+    float: right;
+}/*== End login page styling ==*/
+
+/*==Registration page styling ==*/
+.registration{
+    text-align: center;
+    margin: 30px auto 0;
+}
+.login_form.registrationform .form-group{
+    text-align: left;
+}
+.form-group .form-control{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*== End Registration page styling ==*/
